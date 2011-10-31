@@ -25,8 +25,6 @@ Xscreensaver: spalsh 0
 xterm*utf8:             1
 xterm*eightBitInput:    true
 xterm*metaSendsEscape:  true
-!xterm*faceName:         Bitstream Vera Mono
-!xterm*faceSize:         11
 Xft.antialias: 1
 Xft.dpi: 93
 !Xft.hinting: 1
@@ -39,6 +37,8 @@ urxvt.matcher.button: 2
 urxvt.matcher.pattern.1: \\bwww\\.[\\w-]\\.[\\w./?&@#-]*[\\w/-]
 urxvt.urgentOnBell: true
 
+! taken from:
+! http://crunchbanglinux.org/forums/post/132819/#p132819
 ! swayer2dot color scheme                                                       
 
 urxvt*background: #262218
