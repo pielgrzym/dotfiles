@@ -6,7 +6,7 @@ urxvt*loginShell:       true
 urxvt*internalBorder:   0
 urxvt*depth:             24
 XTerm*termName: xterm-256color
-URxvt*termName: rxvt-256color
+urxvt*termName: rxvt-256color
 !urxvt*inheritPixmap:    true
 !urxvt*tintColor:        #212629
 !urxvt*shading: 5
@@ -33,10 +33,10 @@ Xft.dpi: 93
 !Xft.hintstyle: hintfull
 !Xft.rgba: rgb
 
-URxvt.perl-ext-common: default,matcher
-URxvt.urlLauncher: firefox
-URxvt.matcher.button: 2
-URxvt.matcher.pattern.1: \\bwww\\.[\\w-]\\.[\\w./?&@#-]*[\\w/-]
+urxvt.perl-ext-common: default,matcher
+urxvt.urlLauncher: firefox
+urxvt.matcher.button: 2
+urxvt.matcher.pattern.1: \\bwww\\.[\\w-]\\.[\\w./?&@#-]*[\\w/-]
 urxvt.urgentOnBell: true
 
 ! swayer2dot color scheme                                                       
