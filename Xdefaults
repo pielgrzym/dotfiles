@@ -1,0 +1,72 @@
+urxvt*saveLines:        32767
+urxvt*scrollTtyKeypress:true
+urxvt*scrollTtyOutput:  true
+urxvt*scrollBar:        false
+urxvt*loginShell:       true
+urxvt*internalBorder:   0
+urxvt*depth:             24
+XTerm*termName: xterm-256color
+URxvt*termName: rxvt-256color
+!urxvt*inheritPixmap:    true
+!urxvt*tintColor:        #212629
+!urxvt*shading: 5
+!urxvt*font:    xft:Terminus:pixelsize=12
+urxvt*font:      -*-terminus-*-*-*-*-12-*-*-*-*-*-*-*
+urxvt*boldFont:  -*-terminus-bold-*-*-*-14-*-*-*-*-*-*-*
+urxvt*fading:             5
+!urxvt*foreground:   #00FF00
+!urxvt*background:   #222222
+urxvt*cursorColor:  Orange
+!urxvt*cursorColor2:   white
+!urxvt*pointerColor:   white
+urxvt*geometry:   90x55
+Xcursor.theme: ComixCursors-Black-Small
+Xscreensaver: spalsh 0
+xterm*utf8:             1
+xterm*eightBitInput:    true
+xterm*metaSendsEscape:  true
+!xterm*faceName:         Bitstream Vera Mono
+!xterm*faceSize:         11
+Xft.antialias: 1
+Xft.dpi: 93
+!Xft.hinting: 1
+!Xft.hintstyle: hintfull
+!Xft.rgba: rgb
+
+URxvt.perl-ext-common: default,matcher
+URxvt.urlLauncher: firefox
+URxvt.matcher.button: 2
+URxvt.matcher.pattern.1: \\bwww\\.[\\w-]\\.[\\w./?&@#-]*[\\w/-]
+urxvt.urgentOnBell: true
+
+! swayer2dot color scheme                                                       
+
+urxvt*background: #262218
+urxvt*foreground: #7d6f50
+
+urxvt*colorUL:    #edd93e
+urxvt*colorBD:    #ed3e52
+
+urxvt*color0:     #262218
+urxvt*color8:     #7d6f50
+
+urxvt*color1:     #992835
+urxvt*color9:     #ed3e52
+
+urxvt*color2:     #998c28
+urxvt*color10:    #edd93e
+
+urxvt*color3:     #995328
+urxvt*color11:    #ed813e
+
+urxvt*color4:     #28998c
+urxvt*color12:    #3eedd9
+
+urxvt*color5:     #532899
+urxvt*color13:    #813eed
+
+urxvt*color6:     #289953
+urxvt*color14:    #3eed81
+
+urxvt*color7:     #d1b986
+urxvt*color15:    #f7dd9e
