@@ -4,11 +4,12 @@ xset b 0 &
 /usr/bin/autocutsel -selection PRIMARY -fork &
 setxkbmap pl
 setxkbmap -option caps:escape
-nitogren --restore
+nitrogen --restore
 xsetroot -cursor_name left_ptr
 xbindkeys&
 killall dropboxd&
 dropboxd&
+urxvtd&
 PATH=$PATH:/home/pielgrzym/.zsh/bin
 export PATH
 # exec ck-launch-session subtle -n

@@ -41,6 +41,46 @@ urxvt.urgentOnBell: true
 ! taken from:
 ! http://crunchbanglinux.org/forums/post/132819/#p132819
 ! swayer2dot color scheme                                                       
+*font:      -*-terminus-*-*-*-*-12-*-*-*-*-*-*-*
+*boldFont:  -*-terminus-bold-*-*-*-14-*-*-*-*-*-*-*
+*saveLines:        32767
+*scrollTtyKeypress:true
+*scrollTtyOutput:  true
+*scrollBar:        false
+*loginShell:       true
+*internalBorder:   0
+*depth:             24
+*cursorColor:  Orange
+*background: #262218
+*foreground: #7d6f50
+
+*colorUL:    #edd93e
+*colorBD:    #ed3e52
+
+*color0:     #262218
+*color8:     #7d6f50
+
+*color1:     #992835
+*color9:     #ed3e52
+
+*color2:     #998c28
+*color10:    #edd93e
+
+*color3:     #995328
+*color11:    #ed813e
+
+*color4:     #28998c
+*color12:    #3eedd9
+
+*color5:     #532899
+*color13:    #813eed
+
+*color6:     #289953
+*color14:    #3eed81
+
+*color7:     #d1b986
+*color15:    #f7dd9e
+
 
 urxvt*background: #262218
 urxvt*foreground: #7d6f50
@@ -107,48 +147,48 @@ XTerm*color14:    #A64E80
 XTerm*color7:     #D5D8DE
 XTerm*color15:    #95989C
 
-scratch*foreground: #839484
-scratch*background: #162E21
+scratchpad*foreground: #839484
+scratchpad*background: #162E21
 
 !black
-scratch*color0:     #594C4C
-scratch*color8:     #8C7878
+scratchpad*color0:     #594C4C
+scratchpad*color8:     #8C7878
 
 !red
-scratch*color1:     #9A0A09
-scratch*color9:     #9A3837
+scratchpad*color1:     #9A0A09
+scratchpad*color9:     #9A3837
 
 !green
-scratch*color2:     #869139
-scratch*color10:    #8a915d
+scratchpad*color2:     #869139
+scratchpad*color10:    #8a915d
 
 !yellow
-scratch*color3:     #E9C12C
-scratch*color11:    #E9D072
+scratchpad*color3:     #E9C12C
+scratchpad*color11:    #E9D072
 
 !blue
-scratch*color4:     #4A679E
-scratch*color12:    #32466B
+scratchpad*color4:     #4A679E
+scratchpad*color12:    #32466B
 
 !cyan
-scratch*color5:     #579EB9
-scratch*color13:    #8EADB9
+scratchpad*color5:     #579EB9
+scratchpad*color13:    #8EADB9
 
 !magenta
-scratch*color6:     #CC609D
-scratch*color14:    #A64E80
+scratchpad*color6:     #CC609D
+scratchpad*color14:    #A64E80
 
 !white
-scratch*color7:     #D5D8DE
-scratch*color15:    #95989C
-scratch*cursorColor:  Orange
-!scratch*inheritPixmap:    true
-!scratch*tintColor:        #212629
-!scratch*fading: 4
-scratch*scrollBar:        false
-!scratch*depth:             24
-!scratch*loginShell:       true
-scratch*internalBorder:   0
-scratch*font:      -*-terminus-*-*-*-*-12-*-*-*-*-*-*-*
+scratchpad*color7:     #D5D8DE
+scratchpad*color15:    #95989C
+scratchpad*cursorColor:  Orange
+!scratchpad*inheritPixmap:    true
+!scratchpad*tintColor:        #212629
+!scratchpad*fading: 4
+scratchpad*scrollBar:        false
+!scratchpad*depth:             24
+!scratchpad*loginShell:       true
+scratchpad*internalBorder:   0
+scratchpad*font:      -*-terminus-*-*-*-*-12-*-*-*-*-*-*-*
 
-scratch*termName: rxvt-256color
+scratchpad*termName: rxvt-256color
