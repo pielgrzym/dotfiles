@@ -11,6 +11,7 @@ urxvt*termName: rxvt-256color
 !urxvt*tintColor:        #212629
 !urxvt*shading: 5
 !urxvt*font:    xft:Terminus:pixelsize=12
+XTerm*font:      -*-terminus-*-*-*-*-12-*-*-*-*-*-*-*
 urxvt*font:      -*-terminus-*-*-*-*-12-*-*-*-*-*-*-*
 urxvt*boldFont:  -*-terminus-bold-*-*-*-14-*-*-*-*-*-*-*
 urxvt*fading:             5
@@ -70,3 +71,84 @@ urxvt*color14:    #3eed81
 
 urxvt*color7:     #d1b986
 urxvt*color15:    #f7dd9e
+
+XTerm*foreground: #839484
+XTerm*background: #162E21
+
+!black
+XTerm*color0:     #594C4C
+XTerm*color8:     #8C7878
+
+!red
+XTerm*color1:     #9A0A09
+XTerm*color9:     #9A3837
+
+!green
+XTerm*color2:     #869139
+XTerm*color10:    #8a915d
+
+!yellow
+XTerm*color3:     #E9C12C
+XTerm*color11:    #E9D072
+
+!blue
+XTerm*color4:     #4A679E
+XTerm*color12:    #32466B
+
+!cyan
+XTerm*color5:     #579EB9
+XTerm*color13:    #8EADB9
+
+!magenta
+XTerm*color6:     #CC609D
+XTerm*color14:    #A64E80
+
+!white
+XTerm*color7:     #D5D8DE
+XTerm*color15:    #95989C
+
+scratch*foreground: #839484
+scratch*background: #162E21
+
+!black
+scratch*color0:     #594C4C
+scratch*color8:     #8C7878
+
+!red
+scratch*color1:     #9A0A09
+scratch*color9:     #9A3837
+
+!green
+scratch*color2:     #869139
+scratch*color10:    #8a915d
+
+!yellow
+scratch*color3:     #E9C12C
+scratch*color11:    #E9D072
+
+!blue
+scratch*color4:     #4A679E
+scratch*color12:    #32466B
+
+!cyan
+scratch*color5:     #579EB9
+scratch*color13:    #8EADB9
+
+!magenta
+scratch*color6:     #CC609D
+scratch*color14:    #A64E80
+
+!white
+scratch*color7:     #D5D8DE
+scratch*color15:    #95989C
+scratch*cursorColor:  Orange
+!scratch*inheritPixmap:    true
+!scratch*tintColor:        #212629
+!scratch*fading: 4
+scratch*scrollBar:        false
+!scratch*depth:             24
+!scratch*loginShell:       true
+scratch*internalBorder:   0
+scratch*font:      -*-terminus-*-*-*-*-12-*-*-*-*-*-*-*
+
+scratch*termName: rxvt-256color
