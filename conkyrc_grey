@@ -79,7 +79,7 @@ ${goto 90}${font Ubuntu:size=7,weight:normal}${color}free: ${fs_free /} /
 ${voffset 10}
 ${goto 70}${font Ubuntu:size=18,weight:bold}${color3}SEC${alignr}${color2}${font Ubuntu:size=7,weight:bold}${color1}Port scans
 ${goto 90}${font Ubuntu:size=7,weight:bold}${color}${offset 10}IP${offset 10}PROTO${alignr}DPORT
-${font Ubuntu:size=7,weight:normal}${alignr}${color1}${execpi 20 tail -n 5 /var/log/iptables.log | grep SCAN | cut -d' ' -f13,21,23 | sed -e 's/SRC=\|PROTO=\|DPT=//g' -e 's/^/\${alignr}/' -e 's/ /             /g'}
+${font Ubuntu:size=7,weight:normal}${alignr}${color1}${execpi 20 tail -n 5 /var/log/iptables.log | scan-parse}
 
 ${voffset 10}
 ${goto 70}${font Ubuntu:size=18,weight:bold}${color3}NET${alignr}${color2}${font Ubuntu:size=7,weight:bold}${color1}${if_up eth0}eth ${addr eth0} ${endif}${if_up wlan0}wifi ${addr wlan0}${endif}
