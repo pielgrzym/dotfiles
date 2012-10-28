@@ -7,9 +7,10 @@ urxvt*internalBorder:   0
 urxvt*depth:             24
 XTerm*termName: xterm-256color
 urxvt*termName: rxvt-256color
-!urxvt*inheritPixmap:    true
-!urxvt*tintColor:        #212629
-!urxvt*shading: 5
+! urxvt*inheritPixmap:    true
+! urxvt*tintColor:        #212629
+urxvt*transparent: true
+urxvt*shading: 20
 !urxvt*font:    xft:Terminus:pixelsize=12
 XTerm*font:      -*-terminus-*-*-*-*-12-*-*-*-*-*-*-*
 urxvt*font:      -*-terminus-*-*-*-*-12-*-*-*-*-*-*-*
