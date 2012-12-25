@@ -7,15 +7,22 @@ urxvt*internalBorder:   0
 urxvt*depth:             24
 XTerm*termName: xterm-256color
 urxvt*termName: rxvt-256color
-! urxvt*inheritPixmap:    true
-! urxvt*tintColor:        #212629
-urxvt*transparent: true
-urxvt*shading: 20
+*inheritPixmap:    true
+project*tintColor: #2a2a2a
+*transparent: true
+project*backgroundPixmap: /home/pielgrzym/Dropbox/wallpapers/subtle_carbon.png;style=tiled
+scratch*backgroundPixmap: /home/pielgrzym/Dropbox/wallpapers/fake_brick.png;style=tiled
+*shading: 20
+scratch*shading: 70
+scratch*transparent: true
+project*tintColor: #443322
+project*fading: 50
+project*shading: 70
 !urxvt*font:    xft:Terminus:pixelsize=12
 XTerm*font:      -*-terminus-*-*-*-*-12-*-*-*-*-*-*-*
-urxvt*font:      -*-terminus-*-*-*-*-12-*-*-*-*-*-*-*
-urxvt*boldFont:  -*-terminus-bold-*-*-*-14-*-*-*-*-*-*-*
-urxvt*fading:             5
+*font:      -*-terminus-*-*-*-*-12-*-*-*-*-*-*-*
+*boldFont:  -*-terminus-bold-*-*-*-14-*-*-*-*-*-*-*
+! urxvt*fading:             5
 !urxvt*foreground:   #00FF00
 !urxvt*background:   #222222
 urxvt*cursorColor:  Orange
@@ -52,6 +59,37 @@ urxvt.urgentOnBell: true
 *internalBorder:   0
 *depth:             24
 *cursorColor:  Orange
+! *background: #262218
+! *foreground: #7d6f50
+! 
+! *colorUL:    #edd93e
+! *colorBD:    #ed3e52
+! 
+! *color0:     #262218
+! *color8:     #7d6f50
+! 
+! *color1:     #992835
+! *color9:     #ed3e52
+! 
+! *color2:     #998c28
+! *color10:    #edd93e
+! 
+! *color3:     #995328
+! *color11:    #ed813e
+! 
+! *color4:     #28998c
+! *color12:    #3eedd9
+! 
+! *color5:     #532899
+! *color13:    #813eed
+! 
+! *color6:     #289953
+! *color14:    #3eed81
+! 
+! *color7:     #d1b986
+! *color15:    #f7dd9e
+! 
+! 
 *background: #262218
 *foreground: #7d6f50
 
@@ -81,37 +119,6 @@ urxvt.urgentOnBell: true
 
 *color7:     #d1b986
 *color15:    #f7dd9e
-
-
-urxvt*background: #262218
-urxvt*foreground: #7d6f50
-
-urxvt*colorUL:    #edd93e
-urxvt*colorBD:    #ed3e52
-
-urxvt*color0:     #262218
-urxvt*color8:     #7d6f50
-
-urxvt*color1:     #992835
-urxvt*color9:     #ed3e52
-
-urxvt*color2:     #998c28
-urxvt*color10:    #edd93e
-
-urxvt*color3:     #995328
-urxvt*color11:    #ed813e
-
-urxvt*color4:     #28998c
-urxvt*color12:    #3eedd9
-
-urxvt*color5:     #532899
-urxvt*color13:    #813eed
-
-urxvt*color6:     #289953
-urxvt*color14:    #3eed81
-
-urxvt*color7:     #d1b986
-urxvt*color15:    #f7dd9e
 
 XTerm*foreground: #839484
 XTerm*background: #162E21
@@ -147,49 +154,3 @@ XTerm*color14:    #A64E80
 !white
 XTerm*color7:     #D5D8DE
 XTerm*color15:    #95989C
-
-scratchpad*foreground: #839484
-scratchpad*background: #162E21
-
-!black
-scratchpad*color0:     #594C4C
-scratchpad*color8:     #8C7878
-
-!red
-scratchpad*color1:     #9A0A09
-scratchpad*color9:     #9A3837
-
-!green
-scratchpad*color2:     #869139
-scratchpad*color10:    #8a915d
-
-!yellow
-scratchpad*color3:     #E9C12C
-scratchpad*color11:    #E9D072
-
-!blue
-scratchpad*color4:     #4A679E
-scratchpad*color12:    #32466B
-
-!cyan
-scratchpad*color5:     #579EB9
-scratchpad*color13:    #8EADB9
-
-!magenta
-scratchpad*color6:     #CC609D
-scratchpad*color14:    #A64E80
-
-!white
-scratchpad*color7:     #D5D8DE
-scratchpad*color15:    #95989C
-scratchpad*cursorColor:  Orange
-!scratchpad*inheritPixmap:    true
-!scratchpad*tintColor:        #212629
-!scratchpad*fading: 4
-scratchpad*scrollBar:        false
-!scratchpad*depth:             24
-!scratchpad*loginShell:       true
-scratchpad*internalBorder:   0
-scratchpad*font:      -*-terminus-*-*-*-*-12-*-*-*-*-*-*-*
-
-scratchpad*termName: rxvt-256color
