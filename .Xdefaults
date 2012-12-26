@@ -13,7 +13,7 @@ project*tintColor: #2a2a2a
 project*backgroundPixmap: /home/pielgrzym/Dropbox/wallpapers/subtle_carbon.png;style=tiled
 scratch*backgroundPixmap: /home/pielgrzym/Dropbox/wallpapers/fake_brick.png;style=tiled
 *shading: 20
-scratch*shading: 30
+scratch*shading: 0
 scratch*transparent: true
 project*tintColor: #443322
 project*fading: 30
@@ -21,6 +21,7 @@ project*shading: 70
 !urxvt*font:    xft:Terminus:pixelsize=12
 XTerm*font:      -*-terminus-*-*-*-*-12-*-*-*-*-*-*-*
 *font:      -*-terminus-*-*-*-*-12-*-*-*-*-*-*-*
+scratch*font:      xft:montecarlo:size=8
 *boldFont:  -*-terminus-bold-*-*-*-14-*-*-*-*-*-*-*
 ! urxvt*fading:             5
 !urxvt*foreground:   #00FF00
