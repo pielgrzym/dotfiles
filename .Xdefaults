@@ -21,14 +21,10 @@ project*shading: 70
 !urxvt*font:    xft:Terminus:pixelsize=12
 XTerm*font:      -*-terminus-*-*-*-*-12-*-*-*-*-*-*-*
 *font:      -*-terminus-*-*-*-*-12-*-*-*-*-*-*-*
-scratch*font:      xft:montecarlo:size=8
-*boldFont:  -*-terminus-bold-*-*-*-14-*-*-*-*-*-*-*
+! scratch*font:      xft:montecarlo:size=8
 ! urxvt*fading:             5
 !urxvt*foreground:   #00FF00
 !urxvt*background:   #222222
-urxvt*cursorColor:  Orange
-!urxvt*cursorColor2:   white
-!urxvt*pointerColor:   white
 urxvt*geometry:   90x55
 Xcursor.theme: ComixCursors-Black-Small
 Xscreensaver: spalsh 0
@@ -51,7 +47,6 @@ urxvt.urgentOnBell: true
 ! http://crunchbanglinux.org/forums/post/132819/#p132819
 ! swayer2dot color scheme                                                       
 *font:      -*-terminus-*-*-*-*-12-*-*-*-*-*-*-*
-*boldFont:  -*-terminus-bold-*-*-*-14-*-*-*-*-*-*-*
 *saveLines:        32767
 *scrollTtyKeypress:true
 *scrollTtyOutput:  true
@@ -60,37 +55,7 @@ urxvt.urgentOnBell: true
 *internalBorder:   0
 *depth:             24
 *cursorColor:  Orange
-! *background: #262218
-! *foreground: #7d6f50
-! 
-! *colorUL:    #edd93e
-! *colorBD:    #ed3e52
-! 
-! *color0:     #262218
-! *color8:     #7d6f50
-! 
-! *color1:     #992835
-! *color9:     #ed3e52
-! 
-! *color2:     #998c28
-! *color10:    #edd93e
-! 
-! *color3:     #995328
-! *color11:    #ed813e
-! 
-! *color4:     #28998c
-! *color12:    #3eedd9
-! 
-! *color5:     #532899
-! *color13:    #813eed
-! 
-! *color6:     #289953
-! *color14:    #3eed81
-! 
-! *color7:     #d1b986
-! *color15:    #f7dd9e
-! 
-! 
+
 *background: #262218
 *foreground: #7d6f50
 
@@ -155,3 +120,40 @@ XTerm*color14:    #A64E80
 !white
 XTerm*color7:     #D5D8DE
 XTerm*color15:    #95989C
+
+!spore xdefs
+
+scratch*foreground: #bfa876
+scratch*background: #2b1b10
+
+!black
+scratch*color0:     #4a271c
+scratch*color8:     #92635c
+
+!red
+scratch*color1:     #d45923
+scratch*color9:     #d6845f
+
+!green
+scratch*color2:     #9bad2c
+scratch*color10:    #cbca57
+
+!yellow
+scratch*color3:     #e29129
+scratch*color11:    #d1ae6f
+
+!blue
+scratch*color4:     #423c5d
+scratch*color12:    #848090
+
+!cyan
+scratch*color5:     #6d3220
+scratch*color13:    #95543f
+
+!magenta
+scratch*color6:     #3f5d57
+scratch*color14:    #7ba3a5
+
+!white
+scratch*color7:     #5d5555
+scratch*color15:    #cdaeae
