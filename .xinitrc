@@ -1,4 +1,6 @@
 #!/bin/sh
+xrandr --output DVI-I-1 --mode 1600x1200
+xrandr --output DVI-I-2 --mode 1920x1080 --right-of DVI-I-1
 xset b 0 &
 /usr/bin/autocutsel -fork &
 /usr/bin/autocutsel -selection PRIMARY -fork &
@@ -12,5 +14,6 @@ dropboxd&
 urxvtd&
 PATH=$PATH:/home/pielgrzym/.zsh/bin
 export PATH
-# exec ck-launch-session subtle -n
-exec ck-launch-session xmonad
+# exec ck-launch-session xmonad
+source $HOME/.rvm/scripts/rvm
+exec ck-launch-session subtle --no-randr &> $HOME/.subtle.log
