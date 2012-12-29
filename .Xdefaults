@@ -7,6 +7,8 @@ urxvt*internalBorder:   0
 urxvt*depth:             24
 XTerm*termName: xterm-256color
 urxvt*termName: rxvt-256color
+project*termName: rxvt-256color
+scratch*termName: rxvt-256color
 *inheritPixmap:    true
 project*tintColor: #2a2a2a
 *transparent: true
@@ -21,21 +23,12 @@ project*shading: 70
 !urxvt*font:    xft:Terminus:pixelsize=12
 XTerm*font:      -*-terminus-*-*-*-*-12-*-*-*-*-*-*-*
 *font:      -*-terminus-*-*-*-*-12-*-*-*-*-*-*-*
-! scratch*font:      xft:montecarlo:size=8
-! urxvt*fading:             5
-!urxvt*foreground:   #00FF00
-!urxvt*background:   #222222
 urxvt*geometry:   90x55
-Xcursor.theme: ComixCursors-Black-Small
-Xscreensaver: spalsh 0
 xterm*utf8:             1
 xterm*eightBitInput:    true
 xterm*metaSendsEscape:  true
 Xft.antialias: 1
 Xft.dpi: 93
-!Xft.hinting: 1
-!Xft.hintstyle: hintfull
-!Xft.rgba: rgb
 
 urxvt.perl-ext-common: default,matcher
 urxvt.urlLauncher: firefox
@@ -157,3 +150,6 @@ scratch*color14:    #7ba3a5
 !white
 scratch*color7:     #5d5555
 scratch*color15:    #cdaeae
+
+Xcursor.theme: ComixCursors-Black-Small
+Xscreensaver: spalsh 0
