@@ -9,8 +9,12 @@ setxkbmap -option caps:escape
 nitrogen --restore
 xsetroot -cursor_name left_ptr
 xbindkeys&
-if [[ $(dropbox running) == 0 ]]; then
-        dropbox start
+if [[ -a $HOME/.dropbox/dropbox.pid ]]; then
+        if ! kill -0 $(<$HOME/.dropbox/dropbox.pid)>/dev/null 2>&1; then
+                dropboxd&
+        fi
+else
+        dropboxd&
 fi
 urxvtd&
 export PATH=$PATH:/home/pielgrzym/.zsh/bin
