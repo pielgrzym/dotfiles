@@ -9,8 +9,9 @@ setxkbmap -option caps:escape
 nitrogen --restore
 xsetroot -cursor_name left_ptr
 xbindkeys&
-killall dropboxd&
-dropboxd&
+if [[ $(dropbox running) == 0 ]]; then
+        dropbox start
+fi
 urxvtd&
 export PATH=$PATH:/home/pielgrzym/.zsh/bin
 source $HOME/.rvm/scripts/rvm
