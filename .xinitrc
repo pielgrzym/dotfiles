@@ -12,7 +12,6 @@ xbindkeys&
 killall dropboxd&
 dropboxd&
 urxvtd&
-PATH=$PATH:/home/pielgrzym/.zsh/bin
-export $PATH
+export PATH=$PATH:/home/pielgrzym/.zsh/bin
 source $HOME/.rvm/scripts/rvm
 exec ck-launch-session subtle &> $HOME/.subtle.log
