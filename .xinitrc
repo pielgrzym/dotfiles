@@ -13,7 +13,6 @@ killall dropboxd&
 dropboxd&
 urxvtd&
 PATH=$PATH:/home/pielgrzym/.zsh/bin
-export PATH
-# exec ck-launch-session xmonad
+export $PATH
 source $HOME/.rvm/scripts/rvm
-exec ck-launch-session subtle --no-randr &> $HOME/.subtle.log
+exec ck-launch-session subtle &> $HOME/.subtle.log
