@@ -16,7 +16,8 @@ if [[ -a $HOME/.dropbox/dropbox.pid ]]; then
 else
         dropboxd&
 fi
-urxvtd&
+urxvtd& # give me terms!
+twmnd& # give me notifications!
 export PATH=$PATH:/home/pielgrzym/.zsh/bin
 source $HOME/.rvm/scripts/rvm
 exec ck-launch-session subtle &> $HOME/.subtle.log
