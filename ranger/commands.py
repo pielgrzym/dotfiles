@@ -358,7 +358,7 @@ class find(Command):
 		if arg == '..':
 			return True
 
-		deq = deque([f for f in cwd.files if f.is_directory])
+		deq = deque(cwd.files)
 		deq.rotate(-cwd.pointer)
 		i = 0
 		case_insensitive = arg.lower() == arg
@@ -367,7 +367,7 @@ class find(Command):
 				filename = fsobj.basename_lower
 			else:
 				filename = fsobj.basename
-			if arg in filename:
+			if arg in filename and fsobj.is_directory:
 				self.count += 1
 				if self.count == 1:
 					cwd.move(to=(cwd.pointer + i) % len(cwd.files))
