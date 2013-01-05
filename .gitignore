@@ -1,3 +1,4 @@
 /ranger/history
 /ranger/bookmarks
 *.pyo
+/ranger/tagged
