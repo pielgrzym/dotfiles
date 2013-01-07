@@ -472,8 +472,7 @@ class terminal(Command):
 	Spawns an "x-terminal-emulator" starting in the current directory.
 	"""
 	def execute(self):
-		command = 'tmux split-window -v -l 15 "cd %s;exec zsh"' % self.fm.thisdir.path
-		self.fm.run(command)
+		self.fm.run('zsh')
 
 
 class delete(Command):
