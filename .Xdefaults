@@ -14,8 +14,10 @@ project*tintColor: #2a2a2a
 *transparent: true
 project*backgroundPixmap: /home/pielgrzym/Dropbox/wallpapers/subtle_carbon.png;style=tiled
 scratch*backgroundPixmap: /home/pielgrzym/Dropbox/wallpapers/fake_brick.png;style=tiled
+irc*backgroundPixmap: /home/pielgrzym/Dropbox/wallpapers/dirty_old_shirt.png;style=tiled
 *shading: 20
 scratch*shading: 0
+irc*shading: 0
 scratch*transparent: true
 project*tintColor: #443322
 project*fading: 30
