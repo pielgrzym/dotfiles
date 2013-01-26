@@ -1055,6 +1055,13 @@ class unfilter(Command):
 		self.fm.reload_cwd()
 
 
+class paste_as_root(Command):
+	def execute(self):
+		if self.fm.do_cut:
+			self.fm.execute_console('shell sudo mv %c .')
+		else:
+			self.fm.execute_console('shell sudo cp -r %c .')
+
 class grep(Command):
 	"""
 	:grep <string>
