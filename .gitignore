@@ -1,2 +1,9 @@
 /home/.vim/bundle
 /home/.vim/bundle/*
+/home/.vim/.netrwhist
+/home/.vim/cache
+/home/.zsh/cache
+!/home/.zsh/cache/.x
+/home/.zsh/.zcompdump
+/home/.zsh/.zlogin
+/home/.zsh/.zprofile
