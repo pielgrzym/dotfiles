@@ -1,0 +1,12 @@
+[submodule "home/.zsh/modules/autoenv"]
+	path = home/.zsh/modules/autoenv
+	url = https://github.com/kennethreitz/autoenv.git
+[submodule "home/.zsh/modules/z"]
+	path = home/.zsh/modules/z
+	url = https://github.com/rupa/z.git
+[submodule "home/.zsh/modules/zsh-completions"]
+	path = home/.zsh/modules/zsh-completions
+	url = https://github.com/zsh-users/zsh-completions.git
+[submodule "home/.zsh/modules/zsh-history-substring-search"]
+	path = home/.zsh/modules/zsh-history-substring-search
+	url = https://github.com/zsh-users/zsh-history-substring-search.git
