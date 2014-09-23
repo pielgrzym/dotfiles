@@ -1,3 +1,6 @@
 [submodule "home/.zsh"]
 	path = home/.zsh
 	url = git@github.com:pielgrzym/zshrc.git
+[submodule "home/.vim"]
+	path = home/.vim
+	url = git@github.com:pielgrzym/vimrc.git
