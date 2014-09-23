@@ -1,3 +1,0 @@
-[submodule "home/.zsh"]
-	path = home/.zsh
-	url = git@github.com:pielgrzym/zshrc.git
