@@ -29,7 +29,9 @@ function set_prompt {
     local failure_color='%F{124}'
     local ruby_color='%F{124}'
     local python_color='%F{034}'
-    local ruby_version='R: $(rbenv version | sed -e "s/ .*//")'
+    if type rbenv > /dev/null; then
+        local ruby_version='R: $(rbenv version | sed -e "s/ .*//")'
+    fi
     local virtual_env_name='$(prompt_virtualenv)'
 
     # Set vcs_info parameters.
