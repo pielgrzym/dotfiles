@@ -4,7 +4,7 @@ autoload colors
 colors
 . $ZDOTDIR/zsh.d/nice_colors.zsh
 # path {{{1
-PATH=$ZDOTDIR/bin:$PATH
+PATH=/usr/local/bin:$ZDOTDIR/bin:$PATH
 # zsh.d modules {{{1
 . $ZDOTDIR/zsh.d/completions.zsh
 . $ZDOTDIR/zsh.d/aliases.zsh
