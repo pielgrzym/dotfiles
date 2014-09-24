@@ -8,6 +8,12 @@ function prompt_precmd {
     vcs_info
 }
 
+function prompt_virtualenv {
+    if [ ! -z $VIRTUAL_ENV ]; then
+        echo "Virtualenv"
+    fi
+}
+
 function set_prompt {
     # Load required functions.
     autoload -Uz add-zsh-hook
@@ -21,7 +27,10 @@ function set_prompt {
     local root_char='❯❯❯'
     local success_color='%F{071}'
     local failure_color='%F{124}'
-    local rprompt_color='%F{242}'
+    local ruby_color='%F{124}'
+    local python_color='%F{034}'
+    local ruby_version='R: $(rbenv version | sed -e "s/ .*//")'
+    local virtual_env_name='$(prompt_virtualenv)'
 
     # Set vcs_info parameters.
     zstyle ':vcs_info:*' enable bzr git hg svn
@@ -34,7 +43,7 @@ function set_prompt {
 
     # Define prompts.
     PROMPT="%(?.${success_color}.${failure_color})${SSH_TTY:+[%n@%m]}%B%${max_path_chars}<...<"'%~ ${vcs_info_msg_0_}'"%(?.${success_color}.${failure_color})%<<%(!.${root_char}.${user_char})%b%f "
-    RPROMPT="${rprompt_color}"'%n@%m'"%f"
+    RPROMPT="${python_color}${virtual_env_name} ${ruby_color}${ruby_version}%f"
 }
 
 set_prompt
