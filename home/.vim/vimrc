@@ -79,7 +79,7 @@ NeoBundle "rking/ag.vim.git"
 NeoBundle "edkolev/tmuxline.vim.git"
 NeoBundle "tpope/vim-unimpaired.git"
 NeoBundle "mustache/vim-mustache-handlebars.git"
-NeoBundle "chase/vim-ansible-yaml"
+NeoBundle "chase/vim-ansible-yaml", {'rev': '6c554c78d831e88376ce5ca5d9664c87ffaba6ab'}
 
 call neobundle#end()
 
