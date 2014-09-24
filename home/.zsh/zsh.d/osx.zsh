@@ -9,3 +9,4 @@ else # crappy osx ls installed
     alias l="ls -h -1 -G"
 fi
 unalias tmux
+tmux="SHELL=/usr/local/bin/zsh tmux"
