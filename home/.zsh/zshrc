@@ -5,6 +5,9 @@ colors
 . $ZDOTDIR/zsh.d/nice_colors.zsh
 # path {{{1
 PATH=/usr/local/bin:$ZDOTDIR/bin:$PATH
+if [[ -f $HOME/.zprofile ]]; then
+    . $HOME/.zprofile
+fi
 # zsh.d modules {{{1
 . $ZDOTDIR/zsh.d/completions.zsh
 . $ZDOTDIR/zsh.d/aliases.zsh
