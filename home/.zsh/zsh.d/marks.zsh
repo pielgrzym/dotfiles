@@ -4,7 +4,7 @@
 export MARKPATH=$HOME/.marks
 
 mark_go() {
-        cd -P "${PROJECTS_ROOT:=$HOME/work}/$1/git" 2>/dev/null || cd -P "$MARKPATH/$1" 2>/dev/null || echo "No such mark $1"
+        cd -P "$MARKPATH/$1" 2>/dev/null || cd -P "${PROJECTS_ROOT:=$HOME/work}/$1/git" 2>/dev/null || echo "No such mark $1"
 }
 alias c=mark_go
 
