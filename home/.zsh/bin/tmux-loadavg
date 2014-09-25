@@ -1,0 +1,2 @@
+#! /usr/bin/env bash
+uptime | rev | cut -d " " -f 1,2,3 | rev

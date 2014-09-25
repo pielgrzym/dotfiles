@@ -460,6 +460,17 @@ let g:airline_detect_whitespace=0
 " let g:airline#extensions#tabline#enabled = 1
 let g:airline_mode_map = {'R': 'R', 'c': 'CMD   ', 'V': 'VL', 'v': 'V', 'i': 'I', '^V': 'VB', 'n': 'N'}
 " }}}
+" Tmuxline -------------------------------------- {{{
+let g:tmuxline_preset = {
+        \ 'a': '#S',
+        \ 'b': '#F',
+        \ 'win': ['#I', '#W'],
+        \ 'cwin': ['#I', '#W'],
+        \ 'x': '#(tmux-loadavg)',
+        \ 'y': ['%a %b %d ', '%R'],
+        \ 'z': '#h',
+        \'options' : {'status-justify' : 'left'}}
+" }}}
 " NERDTree ----------------------------------------- {{{
 nnoremap <silent> <Leader>n :NERDTreeToggle<CR>
 " }}}
