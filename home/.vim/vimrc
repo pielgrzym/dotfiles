@@ -77,7 +77,7 @@ NeoBundle "nono/vim-handlebars.git"
 NeoBundle "vim-scripts/TVO--The-Vim-Outliner.git"
 NeoBundle "rking/ag.vim.git"
 NeoBundle "edkolev/tmuxline.vim.git"
-NeoBundle "tpope/vim-unimpaired.git"
+NeoBundle "tpope/vim-unimpaired.git", { 'rev': 'a3492ee2058a2ef62e883f909bf50bc135077748' }
 NeoBundle "mustache/vim-mustache-handlebars.git"
 NeoBundle "chase/vim-ansible-yaml", {'rev': '6c554c78d831e88376ce5ca5d9664c87ffaba6ab'}
 
