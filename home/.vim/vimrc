@@ -101,7 +101,7 @@ function! SolDark() "{{{
         colorscheme solarized
 endfunction " }}}
 set background=dark
-colorscheme solarized
+colorscheme molokai
 if has('gui_running')
         call togglebg#map("<F1>")
 else
@@ -455,7 +455,7 @@ augroup END
 " }}}
 " Airline -------------------------------------- {{{
 let g:airline_powerline_fonts = 1
-let g:airline_theme='solarized'
+let g:airline_theme='murmur'
 let g:airline_detect_whitespace=0
 " let g:airline#extensions#tabline#enabled = 1
 let g:airline_mode_map = {'R': 'R', 'c': 'CMD   ', 'V': 'VL', 'v': 'V', 'i': 'I', '^V': 'VB', 'n': 'N'}
