@@ -57,6 +57,7 @@ NeoBundle "groenewege/vim-less.git"
 NeoBundle "jmcantrell/vim-virtualenv.git"
 NeoBundle "michaeljsmith/vim-indent-object.git"
 NeoBundle "SirVer/ultisnips.git"
+NeoBundle 'honza/vim-snippets'
 NeoBundle "mattn/webapi-vim.git"
 NeoBundle "tmatilai/gitolite.vim.git"
 NeoBundle "kien/tabman.vim.git"
@@ -279,6 +280,7 @@ augroup END
 " let g:UltiSnipsExpandTrigger="<C-l>"
 " let g:UltiSnipsJumpForwardTrigger="<tab>"
 " let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
+let g:UltiSnipsEditSplit="vertical"
 " }}}
 " Rope ----------------------------------------- {{{
 " let ropevim_goto_def_newwin=1
