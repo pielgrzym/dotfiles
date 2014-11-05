@@ -5,7 +5,8 @@
 " General initialization ----------------------- {{{
 set nocompatible "Turns off vi compatibility - adds cool functionality
 filetype off
-"Neobundle{{{
+" }}}
+" Neobundle setup ---------------------------{{{
 " Note: Skip initialization for vim-tiny or vim-small.
 if !1 | finish | endif
 " Setting up Vundle - the vim plugin bundler
@@ -32,8 +33,8 @@ call neobundle#begin(expand('~/.vim/bundle/'))
 
 " Let NeoBundle manage NeoBundle
 NeoBundleFetch 'Shougo/neobundle.vim'
-
-" My Bundles here:
+"Eof Neobundle setup}}}
+" Neobundle bundles ---------------------------{{{
 NeoBundle "sjl/gundo.vim.git"
 NeoBundle "tpope/vim-surround.git"
 NeoBundle "tpope/vim-fugitive.git"
@@ -81,6 +82,7 @@ NeoBundle "edkolev/tmuxline.vim.git"
 NeoBundle "tpope/vim-unimpaired.git", { 'rev': 'a3492ee2058a2ef62e883f909bf50bc135077748' }
 NeoBundle "mustache/vim-mustache-handlebars.git"
 NeoBundle "chase/vim-ansible-yaml", {'rev': '6c554c78d831e88376ce5ca5d9664c87ffaba6ab'}
+NeoBundle "vim-scripts/YankRing.vim"
 
 call neobundle#end()
 
@@ -89,9 +91,8 @@ filetype plugin indent on
 " If there are uninstalled bundles found on startup,
 " this will conveniently prompt you to install them.
 NeoBundleCheck
-"Eof Neobundle}}}
 set t_Co=256 " without this line tmux/screen will do *bad* things to colors, dude
-" }}}
+"Eof Neobundle neobundles}}}
 " Solarized settings --------------------------- {{{
 function! SolLight() " {{{
         set background=light
