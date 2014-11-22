@@ -49,7 +49,6 @@ NeoBundle "blueyed/vim-autoclose.git"
 NeoBundle "tomtom/tcomment_vim.git"
 NeoBundle "mattn/gist-vim.git"
 NeoBundle "pielgrzym/vim-colors-solarized.git"
-NeoBundle "vim-scripts/searchfold.vim.git"
 NeoBundle "klen/python-mode.git"
 NeoBundle "kien/ctrlp.vim.git"
 NeoBundle "vim-scripts/rubycomplete.vim.git"
@@ -61,8 +60,6 @@ NeoBundle "SirVer/ultisnips.git"
 NeoBundle 'honza/vim-snippets'
 NeoBundle "mattn/webapi-vim.git"
 NeoBundle "tmatilai/gitolite.vim.git"
-NeoBundle "kien/tabman.vim.git"
-NeoBundle "derekwyatt/vim-scala.git"
 NeoBundle "pangloss/vim-javascript.git"
 NeoBundle "pielgrzym/ctrlp-sessions.git"
 NeoBundle "endel/ctrlp-filetype.vim.git"
@@ -74,7 +71,7 @@ NeoBundle "tjennings/git-grep-vim.git"
 NeoBundle "kchmck/vim-coffee-script.git"
 NeoBundle "tomtom/tlib_vim.git"
 NeoBundle "tomtom/trag_vim.git"
-NeoBundle "scrooloose/nerdtree.git"
+NeoBundle "tpope/vim-vinegar.git"
 NeoBundle "nono/vim-handlebars.git"
 NeoBundle "vim-scripts/TVO--The-Vim-Outliner.git"
 NeoBundle "rking/ag.vim.git"
@@ -473,8 +470,5 @@ let g:tmuxline_preset = {
         \ 'y': ['%a %b %d ', '%R'],
         \ 'z': '#h',
         \'options' : {'status-justify' : 'left'}}
-" }}}
-" NERDTree ----------------------------------------- {{{
-nnoremap <silent> <Leader>n :NERDTreeToggle<CR>
 " }}}
 "
