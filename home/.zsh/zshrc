@@ -12,6 +12,7 @@ fi
 . $ZDOTDIR/zsh.d/completions.zsh
 . $ZDOTDIR/zsh.d/aliases.zsh
 . $ZDOTDIR/zsh.d/dirstack.zsh
+. $ZDOTDIR/zsh.d/debian.zsh
 . $ZDOTDIR/zsh.d/extract.zsh
 . $ZDOTDIR/zsh.d/fast_updir.zsh
 . $ZDOTDIR/zsh.d/history.zsh
