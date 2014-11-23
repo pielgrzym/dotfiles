@@ -83,8 +83,7 @@ set t_Co=256 " without this line tmux/screen will do *bad* things to colors, dud
 " Colorscheme settings {{{1
 set background=dark
 colorscheme molokai
-" Various options {{{1
-let python_highlight_all = 1
+" Options {{{1
 set fencs=utf-8,iso-8859-2,cp1250 "Resolve encoding problems
 set autoread "Set to auto read when a file is changed from the outside
 set hidden "Enables changing buffer without saving
@@ -110,18 +109,17 @@ nnoremap g, g,zz
 " always open help in new tab instead of split:
 cabbrev he tab help
 cabbrev help tab help
-" Nowrap goodies {{{1
 set nowrap
 set sidescroll=5 "when moving in the file horizontally move 5 columns a time
 set listchars+=precedes:←,extends:→ " nice indicators that there is more text horizontally
-" Backup options {{{1
+" Backup options {{{2
 set backup "Enable creation of backup files
 set backupdir=~/.vbk "Place backup files in a hidden dir
 "set directory=~/.vbk "Place swap files in a hidden dir
 set undofile "persisent undo! new in vim 7.3!
 set noswapfile
 set undodir=~/.vimundo
-" User interface and text formatting {{{1
+" User interface and text formatting {{{2
 set number "Show line numbers
 set wildmenu "Turn on WiLd menu
 " wildignore taken from Steve Losh's config:
@@ -149,7 +147,7 @@ set expandtab "Use spaces to create tabs
 set ai "Auto indent
 set si "Smart indet
 syntax on "Enable syntax highligting
-" Autocompletion {{{1
+" Autocompletion {{{2
 set completeopt=longest,menuone,preview
 autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
 autocmd FileType css set omnifunc=csscomplete#CompleteCSS
@@ -281,6 +279,7 @@ augroup ft_nginx
         call NginxFt()
 augroup END
 " Python {{{1
+let python_highlight_all = 1
 augroup ft_python
         autocmd!
         autocmd FileType python set omnifunc=pythoncomplete#Complete
