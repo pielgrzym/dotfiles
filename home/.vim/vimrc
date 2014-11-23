@@ -80,7 +80,7 @@ filetype plugin indent on
 " this will conveniently prompt you to install them.
 NeoBundleCheck
 set t_Co=256 " without this line tmux/screen will do *bad* things to colors, dude
-" Colorscheme settings {{{1
+" Colorscheme {{{1
 set background=dark
 colorscheme molokai
 " Options {{{1
