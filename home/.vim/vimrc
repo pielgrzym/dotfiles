@@ -125,6 +125,9 @@ nnoremap N Nzzzv
 " same when jumping to changes!
 nnoremap g; g;zz
 nnoremap g, g,zz
+" always open help in new tab instead of split:
+cabbrev he tab help
+cabbrev help tab help
 " }}}
 " Nowrap goodies ------------------------------- {{{
 set nowrap
