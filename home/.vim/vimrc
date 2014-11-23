@@ -35,51 +35,44 @@ call neobundle#begin(expand('~/.vim/bundle/'))
 NeoBundleFetch 'Shougo/neobundle.vim'
 "Eof Neobundle setup}}}
 " Neobundle bundles ---------------------------{{{
-NeoBundle "sjl/gundo.vim.git"
-NeoBundle "tpope/vim-surround.git"
-NeoBundle "tpope/vim-fugitive.git"
-NeoBundle "tpope/vim-repeat.git"
 NeoBundle "Shougo/neocomplcache.git"
-NeoBundle "vim-scripts/matchit.zip.git"
-NeoBundle "majutsushi/tagbar.git"
-NeoBundle "vim-scripts/L9.git"
-NeoBundle "gregsexton/gitv.git"
-NeoBundle "mattn/emmet-vim.git"
-NeoBundle "blueyed/vim-autoclose.git"
-NeoBundle "tomtom/tcomment_vim.git"
-NeoBundle "mattn/gist-vim.git"
-NeoBundle "pielgrzym/vim-colors-solarized.git"
-NeoBundle "klen/python-mode.git"
-NeoBundle "kien/ctrlp.vim.git"
-NeoBundle "vim-scripts/rubycomplete.vim.git"
-NeoBundle "tpope/vim-rails.git"
-NeoBundle "groenewege/vim-less.git"
-NeoBundle "jmcantrell/vim-virtualenv.git"
-NeoBundle "michaeljsmith/vim-indent-object.git"
 NeoBundle "SirVer/ultisnips.git"
-NeoBundle 'honza/vim-snippets'
-NeoBundle "mattn/webapi-vim.git"
-NeoBundle "tmatilai/gitolite.vim.git"
-NeoBundle "pangloss/vim-javascript.git"
-NeoBundle "pielgrzym/ctrlp-sessions.git"
+NeoBundle "bling/vim-airline.git"
+NeoBundle "blueyed/vim-autoclose.git"
+NeoBundle "chase/vim-ansible-yaml", {'rev': '6c554c78d831e88376ce5ca5d9664c87ffaba6ab'}
+NeoBundle "edkolev/tmuxline.vim.git"
 NeoBundle "endel/ctrlp-filetype.vim.git"
 NeoBundle "evanmiller/nginx-vim-syntax.git"
-NeoBundle "puppetlabs/puppet-syntax-vim.git"
-NeoBundle "mephux/bro.vim.git"
-NeoBundle "bling/vim-airline.git"
-NeoBundle "tjennings/git-grep-vim.git"
-NeoBundle "kchmck/vim-coffee-script.git"
+NeoBundle "gregsexton/gitv.git"
+NeoBundle "groenewege/vim-less.git" " *.less syntax highlighting
+NeoBundle "jmcantrell/vim-virtualenv.git"
+NeoBundle "kchmck/vim-coffee-script.git" " *.coffee syntax highligting
+NeoBundle "kien/ctrlp.vim.git"
+NeoBundle "klen/python-mode.git"
+NeoBundle "majutsushi/tagbar.git"
+NeoBundle "mattn/gist-vim.git"
+NeoBundle "mattn/webapi-vim.git"
+NeoBundle "mephux/bro.vim.git" " *.bro syntax highlighting
+NeoBundle "mustache/vim-mustache-handlebars.git"
+NeoBundle "nono/vim-handlebars.git"
+NeoBundle "pangloss/vim-javascript.git"
+NeoBundle "pielgrzym/ctrlp-sessions.git"
+NeoBundle "sjl/gundo.vim.git"
+NeoBundle "tmatilai/gitolite.vim.git" " gitolite config syntax highlighting
+NeoBundle "tomtom/tcomment_vim.git"
 NeoBundle "tomtom/tlib_vim.git"
 NeoBundle "tomtom/trag_vim.git"
-NeoBundle "tpope/vim-vinegar.git"
-NeoBundle "nono/vim-handlebars.git"
-NeoBundle "vim-scripts/TVO--The-Vim-Outliner.git"
-NeoBundle "rking/ag.vim.git"
-NeoBundle "edkolev/tmuxline.vim.git"
+NeoBundle "tpope/vim-fugitive.git"
+NeoBundle "tpope/vim-rails.git"
+NeoBundle "tpope/vim-repeat.git"
+NeoBundle "tpope/vim-surround.git"
 NeoBundle "tpope/vim-unimpaired.git", { 'rev': 'a3492ee2058a2ef62e883f909bf50bc135077748' }
-NeoBundle "mustache/vim-mustache-handlebars.git"
-NeoBundle "chase/vim-ansible-yaml", {'rev': '6c554c78d831e88376ce5ca5d9664c87ffaba6ab'}
+NeoBundle "tpope/vim-vinegar.git"
+NeoBundle "vim-scripts/L9.git"
+NeoBundle "vim-scripts/TVO--The-Vim-Outliner.git"
 NeoBundle "vim-scripts/YankRing.vim"
+NeoBundle "vim-scripts/matchit.zip.git"
+NeoBundle 'honza/vim-snippets'
 
 call neobundle#end()
 
