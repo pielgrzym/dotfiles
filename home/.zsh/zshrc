@@ -12,7 +12,6 @@ fi
 . $ZDOTDIR/zsh.d/completions.zsh
 . $ZDOTDIR/zsh.d/aliases.zsh
 . $ZDOTDIR/zsh.d/dirstack.zsh
-. $ZDOTDIR/zsh.d/debian.zsh
 . $ZDOTDIR/zsh.d/extract.zsh
 . $ZDOTDIR/zsh.d/fast_updir.zsh
 . $ZDOTDIR/zsh.d/history.zsh
@@ -45,7 +44,11 @@ fi
 . $ZDOTDIR/zsh.d/prompt.zsh
 # osx specific {{{1
 if [[ "$(uname)" == "Darwin" ]]; then
-. $ZDOTDIR/zsh.d/osx.zsh
+    . $ZDOTDIR/zsh.d/osx.zsh
+fi
+# debian specific {{{1
+if $(command -v apt-get 2>&1 > /dev/null); then
+    . $ZDOTDIR/zsh.d/debian.zsh
 fi
 # modeline {{{1
 # vim: fdm=marker:fdl=0
