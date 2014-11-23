@@ -67,7 +67,7 @@ NeoBundle "tpope/vim-rails.git"
 NeoBundle "tpope/vim-repeat.git"
 NeoBundle "tpope/vim-surround.git"
 NeoBundle "tpope/vim-unimpaired.git", { 'rev': 'a3492ee2058a2ef62e883f909bf50bc135077748' }
-NeoBundle "tpope/vim-vinegar.git"
+NeoBundle "jeetsukumaran/vim-filebeagle"
 NeoBundle "vim-scripts/L9.git"
 NeoBundle "vim-scripts/TVO--The-Vim-Outliner.git"
 NeoBundle "vim-scripts/YankRing.vim"
