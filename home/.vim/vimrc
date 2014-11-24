@@ -63,6 +63,7 @@ NeoBundle "tomtom/trag_vim.git"
 NeoBundle "tpope/vim-fugitive.git"
 NeoBundle "tpope/vim-rails.git"
 NeoBundle "tpope/vim-repeat.git"
+NeoBundle "tpope/vim-sleuth.git"
 NeoBundle "tpope/vim-surround.git"
 NeoBundle "tpope/vim-unimpaired.git", { 'rev': 'a3492ee2058a2ef62e883f909bf50bc135077748' }
 NeoBundle "jeetsukumaran/vim-filebeagle"
