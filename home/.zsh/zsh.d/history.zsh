@@ -32,5 +32,9 @@ bindkey "^X^m" copy-prev-shell-word
 bindkey "^Xm" _most_recent_file
 bindkey "^X^X" vi-beginning-of-line
 bindkey "^X^A" vi-end-of-line
+
+# grep history with ease
+alias histgr="history 1 | grep -i"
+
 # modeline {{{1
 # vim: fdm=marker:fdl=0
