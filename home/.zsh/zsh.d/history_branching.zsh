@@ -35,6 +35,7 @@ checkout_history_branch() {
         SAVEHIST=5000
         HISTSIZE=5000
         CUSTOM_HISTORY="H: $PWD"
+        fc -W
 }
 
 checkout_master_history_branch() {
