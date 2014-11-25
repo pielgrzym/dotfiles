@@ -348,6 +348,28 @@ if has("unix")
     let g:gist_clip_command = 'xclip -selection clipboard'
   endif
 endif
+" Gitcommit {{{1
+" Gitcommit folding by: ecneladis
+" https://github.com/ecneladis/planet-earth/commit/72bdb05e418d505139bf7198fc81f479c0edcfdf
+augroup ft_gitcommit
+  autocmd!
+  au FileType gitcommit setlocal foldmethod=expr
+  au FileType gitcommit setlocal foldexpr=GitDiffFolding(v:lnum)
+  au FileType gitcommit setlocal foldtext=set foldtext=GitDiffFoldText()
+
+  function! GitDiffFoldText()  
+    let filename_regex = "diff --git a[^ ]* b/"
+    return substitute(getline(v:foldstart), filename_regex, "", 'g')
+  endf
+
+  function! GitDiffFolding(lnum)
+    if getline(a:lnum) =~? '\v^diff --git'
+        return '>1'
+    endif
+    return '=' 
+  endf
+
+augroup END
 " Templates {{{1
 autocmd BufNewFile * silent! 0r ~/.vim/templates/%:e.tpl
 " XML {{{1
