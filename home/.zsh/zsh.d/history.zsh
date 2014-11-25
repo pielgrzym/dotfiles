@@ -34,7 +34,7 @@ bindkey "^X^X" vi-beginning-of-line
 bindkey "^X^A" vi-end-of-line
 
 # grep history with ease
-alias histgr="history 1 | grep -i"
+alias h="history 1 | grep -i"
 
 # modeline {{{1
 # vim: fdm=marker:fdl=0
