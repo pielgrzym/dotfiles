@@ -115,7 +115,8 @@ set sidescroll=5 "when moving in the file horizontally move 5 columns a time
 set listchars+=precedes:←,extends:→ " nice indicators that there is more text horizontally
 " Backup options {{{2
 set backup "Enable creation of backup files
-set backupdir=~/.vbk "Place backup files in a hidden dir
+set nobackup
+set nowritebackup
 "set directory=~/.vbk "Place swap files in a hidden dir
 set undofile "persisent undo! new in vim 7.3!
 set noswapfile
