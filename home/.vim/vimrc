@@ -4,6 +4,8 @@
 
 " General initialization {{{1
 set nocompatible "Turns off vi compatibility - adds cool functionality
+scriptencoding utf-8 " fix utf-related errors
+set encoding=utf-8 " fix utf-related errors
 filetype off
 " Neobundle setup {{{1
 " Note: Skip initialization for vim-tiny or vim-small.
