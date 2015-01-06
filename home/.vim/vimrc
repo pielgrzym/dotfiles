@@ -220,6 +220,7 @@ inoremap <expr><CR>  neocomplcache#smart_close_popup() . "\<CR>"
 let g:otl_bold_headers = 0
 augroup ft_otl
         autocmd!
+        autocmd FileType otl nested NeoComplCacheLock
         autocmd FileType otl set noexpandtab
         autocmd FileType otl set tabstop=4
         autocmd FileType otl set shiftwidth=4
