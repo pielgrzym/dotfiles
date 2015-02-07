@@ -74,6 +74,7 @@ NeoBundle "vim-scripts/TVO--The-Vim-Outliner.git"
 NeoBundle "vim-scripts/YankRing.vim"
 NeoBundle "vim-scripts/matchit.zip.git"
 NeoBundle 'honza/vim-snippets'
+NeoBundle 't9md/vim-ruby-xmpfilter'
 " Other NeoBundle stuff {{{2
 call neobundle#end()
 
@@ -443,6 +444,14 @@ let g:tmuxline_preset = {
         \ 'y': ['%a %b %d ', '%R'],
         \ 'z': '#h',
         \'options' : {'status-justify' : 'left'}}
+" xmpfilter {{{1
+autocmd FileType ruby nmap <buffer> <Leader>e <Plug>(xmpfilter-mark)
+autocmd FileType ruby xmap <buffer> <Leader>e <Plug>(xmpfilter-mark)
+autocmd FileType ruby imap <buffer> <Leader>e <Plug>(xmpfilter-mark)
+
+autocmd FileType ruby nmap <buffer> <Leader>E <Plug>(xmpfilter-run)
+autocmd FileType ruby xmap <buffer> <Leader>E <Plug>(xmpfilter-run)
+autocmd FileType ruby imap <buffer> <Leader>E <Plug>(xmpfilter-run)
 " FileBeagle {{{1
 let g:filebeagle_suppress_keymaps = 1
 map <silent> <Leader>-  <Plug>FileBeagleOpenCurrentWorkingDir
