@@ -19,6 +19,7 @@ fi
 . $ZDOTDIR/zsh.d/keychain.zsh
 . $ZDOTDIR/zsh.d/marks.zsh
 . $ZDOTDIR/zsh.d/misc.zsh
+. $ZDOTDIR/zsh.d/pack_n_crypt.zsh
 . $ZDOTDIR/zsh.d/rbenv.zsh
 . $ZDOTDIR/zsh.d/rly.zsh
 . $ZDOTDIR/zsh.d/smart_sudo.zsh
