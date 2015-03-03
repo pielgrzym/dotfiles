@@ -16,7 +16,7 @@ export STARTER_KIT_VM_ROOT='/opt/starter-kit'
 export STARTER_KIT_CACHE_ROOT='/opt/starter-kit'
 export STARTER_KIT_SHARED_FOLDER_ROOT='/opt/base/'
 
-STARTER_KIT_RUBY_VERSION='2.1.2'
+STARTER_KIT_RUBY_VERSION='2.1.3'
 
 alias starter-kit="RBENV_VERSION=$STARTER_KIT_RUBY_VERSION starter-kit"
 alias spo="RBENV_VERSION=$STARTER_KIT_RUBY_VERSION starter-kit provision --only"
