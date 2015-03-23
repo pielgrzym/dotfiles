@@ -6,11 +6,23 @@ mks() {
   # set window title
   session_name="$1"
   printf "\033];%s\07\n" "tmux_session_$session_name"
-  if [[ "$session_name" == "main" ]]; then
-    _main_tmux_session
-  elif [[ "$session_name" == "logs" ]]; then
-    _logs_tmux_session
+  if (tmux has-session -t "$session_name" 2> /dev/null); then
+    tmux attach-session -t $session_name
+  else
+    _make_tmux_session $session_name
   fi
+}
+
+_make_tmux_session() {
+  $session_name="$1"
+  case $session_name in
+    main)
+      _main_tmux_session
+      ;;
+    logs)
+      _logs_tmux_session
+      ;;
+  esac
   tmux -2 attach-session -t $session_name
 }
 
