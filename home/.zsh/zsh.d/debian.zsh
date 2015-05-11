@@ -14,7 +14,7 @@ mks() {
 }
 
 _make_tmux_session() {
-  $session_name="$1"
+  session_name="$1"
   case $session_name in
     main)
       _main_tmux_session
