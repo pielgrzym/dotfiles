@@ -1,0 +1,4 @@
+#!/bin/zsh
+window_name=$1
+echo "Jumping to window $window_name"
+xdotool search --name "$window_name" windowactivate %@
