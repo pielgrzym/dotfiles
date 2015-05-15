@@ -385,7 +385,6 @@ autocmd BufNewFile * silent! 0r ~/.vim/templates/%:e.tpl
 augroup ft_xml
         autocmd!
         autocmd FileType xml set omnifunc=xmlcomplete#CompleteTags
-        autocmd FileType xml  let g:AutoClosePairs = {'(': ')', '{': '}', '[': ']', '"': '"', "'": "'", '`': '`', '«': '»'}
 augroup END
 " Handlebars {{{1
 augroup ft_handlebars
