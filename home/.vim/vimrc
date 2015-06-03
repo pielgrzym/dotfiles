@@ -38,7 +38,7 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 NeoBundle "Shougo/neocomplcache.git"
 NeoBundle "SirVer/ultisnips.git"
 NeoBundle "bling/vim-airline.git"
-NeoBundle "blueyed/vim-autoclose.git"
+NeoBundle "vim-scripts/Auto-Pairs"
 NeoBundle "chase/vim-ansible-yaml", {'rev': '6c554c78d831e88376ce5ca5d9664c87ffaba6ab'}
 NeoBundle "edkolev/tmuxline.vim.git"
 NeoBundle "endel/ctrlp-filetype.vim.git"
@@ -341,6 +341,7 @@ let g:pymode_lint_config = '/home/pielgrzym/.vim/pylint.ini'
 let g:pymode_lint_cwindow = 0
 let g:pymode_folding = 0
 let g:pymode_syntax = 1
+let g:pymode_doc = 0
 nnoremap <F4> :PyLintWindowToggle<CR>
 " Gist {{{1
 let g:gist_detect_filetype = 1
@@ -384,7 +385,6 @@ autocmd BufNewFile * silent! 0r ~/.vim/templates/%:e.tpl
 augroup ft_xml
         autocmd!
         autocmd FileType xml set omnifunc=xmlcomplete#CompleteTags
-        autocmd FileType xml  let g:AutoClosePairs = {'(': ')', '{': '}', '[': ']', '"': '"', "'": "'", '`': '`', '«': '»'}
 augroup END
 " Handlebars {{{1
 augroup ft_handlebars
@@ -435,7 +435,7 @@ augroup END
 " Airline {{{1
 let g:airline_powerline_fonts = 1
 let g:airline_theme='murmur'
-let g:airline_detect_whitespace=0
+"let g:airline_detect_whitespace=0
 " let g:airline#extensions#tabline#enabled = 1
 let g:airline_mode_map = {'R': 'R', 'c': 'CMD   ', 'V': 'VL', 'v': 'V', 'i': 'I', '^V': 'VB', 'n': 'N'}
 " Tmuxline {{{1
