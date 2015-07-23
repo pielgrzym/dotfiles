@@ -427,6 +427,11 @@ if has("autocmd")
   autocmd BufRead *.mako set filetype=mako
   augroup END
 endif
+" Asciidoc {{{1
+augroup ft_asciidoc
+        autocmd!
+        au BufNewFile,BufRead *.adoc set filetype=asciidoc
+augroup END
 " Vimscript file settings {{{1
 augroup filetype_vim
     au!
