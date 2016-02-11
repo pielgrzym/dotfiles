@@ -33,7 +33,6 @@ alias shutdown='rly sudo shutdown'
 alias hist_off='HISTFILE='
 alias hist_on='HISTFILE=$HOME/.zsh_history'
 alias svim="vim -n -c 'set nobackup'"
-alias dssh="dropship ssh"
 # disable globbing {{{1
 # Disable globbing. stolen from prezto
 alias find='noglob find'
