@@ -11,3 +11,5 @@ else # crappy osx ls installed
     alias l="ls -h -1 -G"
 fi
 alias tmux="SHELL=/usr/local/bin/zsh tmux"
+GPG_TTY=$(tty)
+export GPG_TTY
