@@ -1,3 +1,9 @@
+# ls
+alias ls="ls -h --color=tty"
+alias ll='ls -lh --color=tty'
+alias l="ls -h -1 --color=tty"
+
+# apt
 alias upgrade="sudo apt-get update && sudo apt-get upgrade"
 alias update="sudo apt-get update"
 alias aptf="apt-cache search"

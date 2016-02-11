@@ -16,10 +16,6 @@ else
 fi
 compdef mp=mplayer
 compdef napi=mplayer # ugly, but makes colorfull completions for napi
-# ls
-alias ls="ls -h --color=tty"
-alias ll='ls -lh --color=tty'
-alias l="ls -h -1 --color=tty"
 # tree
 alias lta='tree -L 2'
 alias lt='tree -L 2 -d'
