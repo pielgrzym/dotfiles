@@ -65,3 +65,8 @@ _logs_tmux_session() {
 
 alias main="mks main"
 alias logs="mks logs"
+
+# get rid of gnome-keyring crap
+if [[ $(gconftool-2 --get /apps/gnome-keyring/daemon-components/ssh) != "false" ]]; then
+  gconftool-2 --type bool --set /apps/gnome-keyring/daemon-components/ssh false
+fi

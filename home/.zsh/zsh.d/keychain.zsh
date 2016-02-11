@@ -7,9 +7,6 @@
 #         fi
 #     fi
 # fi
-if [[ $(gconftool-2 --get /apps/gnome-keyring/daemon-components/ssh) != "false" ]]; then
-  gconftool-2 --type bool --set /apps/gnome-keyring/daemon-components/ssh false
-fi
 if [ -f "${HOME}/.gpg-agent-info"  ]; then
     . "${HOME}/.gpg-agent-info"
     export GPG_AGENT_INFO

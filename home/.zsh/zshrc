@@ -8,6 +8,14 @@ PATH=/usr/local/bin:$ZDOTDIR/bin:$PATH
 if [[ -f $HOME/.zprofile ]]; then
     . $HOME/.zprofile
 fi
+# osx specific {{{1
+if [[ "$(uname)" == "Darwin" ]]; then
+    . $ZDOTDIR/zsh.d/osx.zsh
+fi
+# debian specific {{{1
+if $(command -v apt-get 2>&1 > /dev/null); then
+    . $ZDOTDIR/zsh.d/debian.zsh
+fi
 # zsh.d modules {{{1
 . $ZDOTDIR/zsh.d/completions.zsh
 . $ZDOTDIR/zsh.d/aliases.zsh
@@ -43,13 +51,5 @@ if [[ -f $MYZMODULES/z/z.sh ]]; then
 fi
 # prompt shit {{{1
 . $ZDOTDIR/zsh.d/prompt.zsh
-# osx specific {{{1
-if [[ "$(uname)" == "Darwin" ]]; then
-    . $ZDOTDIR/zsh.d/osx.zsh
-fi
-# debian specific {{{1
-if $(command -v apt-get 2>&1 > /dev/null); then
-    . $ZDOTDIR/zsh.d/debian.zsh
-fi
 # modeline {{{1
 # vim: fdm=marker:fdl=0
