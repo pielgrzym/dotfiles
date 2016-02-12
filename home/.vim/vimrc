@@ -453,6 +453,14 @@ let g:tmuxline_preset = {
         \ 'y': ['%a %b %d ', '%R'],
         \ 'z': '#h',
         \'options' : {'status-justify' : 'left'}}
+" OSX specific {{{1
+if has("unix")
+  let s:uname = system("uname -s")
+  if s:uname == "Darwin"
+    " Do Mac stuff here
+    let g:tmuxline_powerline_separators = 0 " unfuck transparency ugliness :>
+  endif
+endif
 " FileBeagle {{{1
 let g:filebeagle_suppress_keymaps = 1
 map <silent> <Leader>-  <Plug>FileBeagleOpenCurrentWorkingDir
